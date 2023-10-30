@@ -11,7 +11,6 @@ fn main() {
     for (i, line) in input.into_iter().enumerate() {
         let vec = line.split_whitespace().collect::<String>();
         println!("{}", vec);
-        // vec
     }
     
 }
